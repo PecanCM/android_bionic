@@ -392,7 +392,7 @@ int pthread_create(pthread_t *thread_out, pthread_attr_t const * attr,
     {
 	    return pthread_create(thread, attr, start_routine, arg);
     }
-395	#endif
+#endif
 
 int pthread_attr_init(pthread_attr_t * attr)
 {
